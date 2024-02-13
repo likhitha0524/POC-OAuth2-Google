@@ -1,10 +1,10 @@
-package com.example.oauth2poc;
+package com.example.oauth2poc.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Controller {
+public class AuthenticationController {
 
     @GetMapping("/")
     public String home(){

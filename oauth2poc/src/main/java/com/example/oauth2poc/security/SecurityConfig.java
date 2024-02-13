@@ -1,4 +1,4 @@
-package com.example.oauth2poc;
+package com.example.oauth2poc.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
